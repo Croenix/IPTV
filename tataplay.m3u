@@ -64,3 +64,5 @@ https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4
 https://segment.yuppcdn.net/050522/reporter/050522/reporter_1800/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="News Malayalam 24x7" tvg-logo="https://i.postimg.cc/Y9TXrz50/20241117-190136.png" group-title="News",News Malayalam 24x7
 https://i.postimg.cc/Y9TXrz50/20241117-190136.png
+#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet 2025" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet 2025
+http://817596420596990469.ofded12.xyz:80/play/ZCSA240422R/DAEQR73648/990469.ts
