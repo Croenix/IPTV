@@ -1,5 +1,8 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
 #EXTM3U
+#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet 2025
+http://817596420596990469.ofded12.xyz:80/play/ZCSA240422R/DAEQR73648/990469.ts
+
 #EXTINF:-1 tvg-id="ts292" tvg-name="Asianet" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet
 http://612807783293941704.ofnm1026.xyz:80/live/te430206/m78bBMCE6PDF/941704.ts
 #EXTINF:-1 tvg-id="ts292" tvg-name="Asianet HD" tvg-logo="https://i.postimg.cc/mgSP6vFN/20241110-232833.png" group-title="Entertainment",Asianet HD
