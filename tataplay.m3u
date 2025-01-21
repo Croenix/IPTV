@@ -1,41 +1,53 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
 #EXTM3U
-#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet 2025" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet 2025
-http://817596420596990469.ofded12.xyz:80/play/ZCSA240422R/DAEQR73648/990469.ts
-#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet
-http://817596420596990469.ofded12.xyz:80/play/ZCSA240422R/DAEQR73648/990469.ts
-#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet HD" tvg-logo="https://i.postimg.cc/mgSP6vFN/20241110-232833.png" group-title="Entertainment",Asianet HD
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2760.ts
-#EXTINF:-1 tvg-id="ts294" tvg-name="Asianet Plus" tvg-logo="https://i.postimg.cc/765bhbtm/20241110-235510.png" group-title="Entertainment",Asianet Plus
-http://612807783293945150.ofnm1026.xyz:80/live/te430206/m78bBMCE6PDF/945150.ts
-#EXTINF:-1 tvg-id="ts293" tvg-name="Asianet Movies" tvg-logo="https://i.postimg.cc/ncMW2Ynt/20241112-203226.png" group-title="Movie",Asianet Movies
-https://allinonereborn.com/dd.m3u8?id=3999
-#EXTINF:-1 tvg-id="ts293" tvg-name="Asianet Movies HD" tvg-logo="https://res.cloudinary.com/dxip0zvuo/image/upload/v1719795998/d4c937fce09f21ce6081236542b759d9.png" group-title="Movie",Asianet Movies HD
-http://612807783293951636.ofnm1026.xyz:80/live/te430206/m78bBMCE6PDF/951636.ts
-#EXTINF:-1 tvg-id="ts395" tvg-name="Mazhavil Manorama HD" tvg-logo="https://i.postimg.cc/TPnv9DNK/20241111-020454.png" group-title="Entertainment",Mazhavil Manorama HD
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/3003.ts
+
+#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet HD 4K" tvg-logo="https://i.postimg.cc/mgSP6vFN/20241110-232833.png" group-title="Entertainment",Asianet HD 4K
+http://mega4k.one:8080/suraj/123456/122109
+#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet 
+http://mega4k.one:8080/suraj/123456/94179
+#EXTINF:-1 tvg-id="ts292" tvg-name="Asianet" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet 1080p
+http://mega4k.one:8080/suraj/123456/132061
+
+#EXTINF:-1 tvg-id="ts479" tvg-name="Surya HD 4K" tvg-logo="https://i.postimg.cc/m2DpD4Th/20241111-014006.png" group-title="Entertainment",Surya HD 4K
+http://mega4k.one:8080/suraj/123456/122096
 #EXTINF:-1 tvg-id="ts479" tvg-name="Surya HD" tvg-logo="https://i.postimg.cc/m2DpD4Th/20241111-014006.png" group-title="Entertainment",Surya HD
-http://612807783293960657.ofnm1026.xyz:80/live/te430206/m78bBMCE6PDF/960657.ts
+http://mega4k.one:8080/suraj/123456/132062
+
+#EXTINF:-1 tvg-id="ts293" tvg-name="Asianet Movies HD" tvg-logo="https://res.cloudinary.com/dxip0zvuo/image/upload/v1719795998/d4c937fce09f21ce6081236542b759d9.png" group-title="Movie",Asianet Movies HD
+http://mega4k.one:8080/suraj/123456/94180
+#EXTINF:-1 tvg-id="ts395" tvg-name="Mazhavil Manorama" tvg-logo="https://i.postimg.cc/TPnv9DNK/20241111-020454.png" group-title="Entertainment",Mazhavil Manorama
+http://mega4k.one:8080/suraj/123456/132070
+#EXTINF:-1 tvg-id="ts395" tvg-name="Mazhavil Manorama HD" tvg-logo="https://i.postimg.cc/TPnv9DNK/20241111-020454.png" group-title="Entertainment",Mazhavil Manorama HD
+http://mega4k.one:8080/suraj/123456/132071
+
+#EXTINF:-1 tvg-id="ts294" tvg-name="Asianet Plus" tvg-logo="https://i.postimg.cc/765bhbtm/20241110-235510.png" group-title="Entertainment",Asianet Plus
+http://mega4k.one:8080/suraj/123456/94181
+#EXTINF:-1 tvg-id="ts293" tvg-name="Asianet Movies" tvg-logo="https://i.postimg.cc/ncMW2Ynt/20241112-203226.png" group-title="Movie",Asianet Movies
+http://mega4k.one:8080/suraj/123456/94180
 #EXTINF:-1 tvg-id="ts229" tvg-name="Surya Movies" tvg-logo="https://i.postimg.cc/YqsnLPSR/20241111-014103.png" group-title="Movie",Surya Movies
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63300
-#EXTINF:-1 tvg-id="ts481" tvg-name="Surya Comedy" tvg-logo="https://i.postimg.cc/d3tF3f0v/20241111-025500.png" group-title="Comedy",Surya Comedy
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2889.ts
-#EXTINF:-1 tvg-id="ts483" tvg-name="Surya Music" tvg-logo="https://i.postimg.cc/YqP72bBK/20241111-020300.png" group-title="Music",Surya Music
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2994.ts
+http://mega4k.one:8080/suraj/123456/94188
+
 #EXTINF:-1 tvg-id="ts10" tvg-name="Flowers TV" tvg-logo="https://i.postimg.cc/J4bph5FY/20241111-031900.png" group-title="Entertainment",Flowers TV
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2798.ts
+http://mega4k.one:8080/suraj/123456/94178
 #EXTINF:-1 tvg-id="ts10" tvg-name="Flowers USA" tvg-logo="https://i.postimg.cc/8z4wRPNh/20241111-031813.png" group-title="Entertainment",Flowers USA
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8
 #EXTINF:-1 tvg-id="ts25" tvg-name="Kairali TV" tvg-logo="https://i.postimg.cc/1zdPXBqN/20241111-020609.png" group-title="Entertainment",Kairali TV
-https://livegeoroueu.akamaized.net/120723/smil:kairali.smil/playlist.m3u8?hdnts=st=1731274473~exp=1731278073~acl=!*/120723/smil:kairali.smil/*!yuppTVCom_5_24010850_1a36b6616a0a4a30_UK_192.250.239.24~data=yuppTVCom_5_24010850_1a36b6616a0a4a30_UK_192.250.239.24~hmac=d9fe7cd4b16b7e9783dfd681fb99b2824b230efdc48d5ec6b64c46fa6389799e&ads.app_bundle=&ads.app_store_url=&ads.content_livestream=1&ads.language=MAL&ads.content_genre=ENT&ads.channel=262&ads.channel_name=KairaliTV&ads.network_name=yupptv&ads.user=1
+http://mega4k.one:8080/suraj/123456/132067
 #EXTINF:-1 tvg-id="ts25" tvg-name="Kairali Arabia" tvg-logo="https://i.postimg.cc/tTVbx63v/20241111-030901.png" group-title="Entertainment",Kairali Arabia
 http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2993.ts
+#EXTINF:-1 tvg-id="ts481" tvg-name="Surya Comedy" tvg-logo="https://i.postimg.cc/d3tF3f0v/20241111-025500.png" group-title="Comedy",Surya Comedy
+http://mega4k.one:8080/suraj/123456/94187
 #EXTINF:-1 tvg-id="ts553" tvg-name="Kairali WE" tvg-logo="https://i.postimg.cc/1XjDYLn3/20241111-021457.png" group-title="Movie",Kairali WE
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2802.ts
+http://mega4k.one:8080/suraj/123456/132063
 #EXTINF:-1 tvg-id="" tvg-name="Asianet NVTV" tvg-logo="https://i.postimg.cc/vHMW0FPX/20241111-032804.png" group-title="Music",Asianet NVTV
 https://ipcloud.live/nvtv/livetvstream/index.m3u8
-#EXTINF:-1 tvg-id="ts428" tvg-name="Raj News Malayalam " tvg-logo="https://i.postimg.cc/W4Drd23p/20241111-033908.png" group-title="Entertainment",Raj News Malayalam 
-http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2820.ts
+#EXTINF:-1 tvg-id="650" tvg-name="Raj News Malayalam " tvg-logo="https://res.cloudinary.com/dxip0zvuo/image/upload/v1718025379/1219b39183afd70e24f076b6374b64fe.png" group-title="Entertainment",Raj News Malayalam 
+http://mega4k.one:8080/suraj/123456/94185
+#EXTINF:-1 tvg-id="ts541" tvg-name="Raj Music Malayalam " tvg-logo="https://res.cloudinary.com/dxip0zvuo/image/upload/v1718024749/1ada28a9f064d2cf94ec067631cf8d63.png" group-title="Music",Raj Music Malayalam 
+http://mega4k.one:8080/suraj/123456/94184
+
+#EXTINF:-1 tvg-id="ts483" tvg-name="Surya Music" tvg-logo="https://i.postimg.cc/YqP72bBK/20241111-020300.png" group-title="Music",Surya Music
+http://mega4k.one:8080/suraj/123456/94189
 #EXTINF:-1 tvg-id="" tvg-name="N Vision" tvg-logo="https://i.postimg.cc/g0PdZscw/20241111-034411.png" group-title="Music",N Vision
 https://ipcloud.live/nvision/skymusic/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KCN HD" tvg-logo="https://i.postimg.cc/t4qsnR9L/20241111-223929.png" group-title="Entertainment",KCN HD
