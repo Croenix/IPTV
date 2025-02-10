@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banners Slider with Dots Indicator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #000;
+    }
+    /* Slider container */
+    .slider {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 70vh;
+    }
+    /* Container for all slides */
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      height: 100%;
+    }
+    /* Each banner slide */
+    .banner {
+      flex: 0 0 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 50px;
+      text-align: center;
+      color: #fff;
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+    }
+    /* Fade shadow overlays */
+    .banner::before,
+    .banner::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .banner::before {
+      top: 0;
+      height: 65px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.946), transparent);
+    }
+    .banner::after {
+      bottom: -1%;
+      height: 55%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.946), transparent);
+    }
+    /* Text animation */
+    .banner-text {
+      opacity: 0;
+      position: relative;
+      z-index: 2;
+      transition: opacity 0.5s ease-in-out;
+    }
+    /* Ensure first banner is visible on load */
+    .banner.active .banner-text {
+      opacity: 1;
+    }
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+    .info {
+      margin: 10px 0;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    .button {
+      display: inline-block;
+      background: #0066ff;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    /* Dots Indicator */
+    .dots {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 3;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      transition: background-color 0.3s ease-in-out;
+    }
+    .dot.active {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <div class="slides"></div>
+    <div class="dots"></div>
+  </div>
+
+  <script>
+    // Fetch the banner data from a JSON file
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const slidesContainer = document.querySelector('.slides');
+        const dotsContainer = document.querySelector('.dots');
+        let currentIndex = 0;
+
+        // Create banners dynamically from data
+        data.forEach((item, index) => {
+          // Create the banner element
+          const banner = document.createElement('div');
+          banner.classList.add('banner');
+          if (index === 0) banner.classList.add('active');
+          banner.style.backgroundImage = `url('${item.image}')`;
+
+          // Create the banner text
+          const bannerText = document.createElement('div');
+          bannerText.classList.add('banner-text');
+          bannerText.innerHTML = `
+            <div class="title">${item.title}</div>
+            <div class="info">${item.info}</div>
+            <a href="${item.url}" class="button">▶ Watch Now</a>
+          `;
+          banner.appendChild(bannerText);
+
+          // Add the banner to the slider
+          slidesContainer.appendChild(banner);
+
+          // Create the dot indicator for the banner
+          const dot = document.createElement('div');
+          dot.classList.add('dot');
+          if (index === 0) dot.classList.add('active');
+          dot.addEventListener('click', () => moveToSlide(index));
+          dotsContainer.appendChild(dot);
+        });
+
+        const banners = document.querySelectorAll('.banner');
+        const dots = document.querySelectorAll('.dot');
+
+        function updateActiveBanner() {
+          banners.forEach((banner, index) => {
+            banner.classList.toggle('active', index === currentIndex);
+          });
+          dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+          });
+        }
+
+        function moveToSlide(index) {
+          currentIndex = index;
+          slidesContainer.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';
+          updateActiveBanner();
+        }
+
+        function showNextSlide() {
+          currentIndex = (currentIndex + 1) % data.length;
+          moveToSlide(currentIndex);
+        }
+
+        // Ensure the first banner is visible and start the interval for auto-slide
+        updateActiveBanner();
+        setInterval(showNextSlide, 5000);
+      })
+      .catch(error => {
+        console.error('Error loading the data.json:', error);
+      });
+  </script>
+</body>
+</html>
