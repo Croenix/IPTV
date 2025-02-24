@@ -8,6 +8,10 @@ http://mega4k.one:8080/suraj/123456/94179
 #EXTINF:-1 tvg-id="ts292" tvg-name="Asianet" tvg-logo="https://i.postimg.cc/pVjgvRXv/20241111-000346.png" group-title="Entertainment",Asianet 1080p
 http://mega4k.one:8080/suraj/123456/132061
 
+#EXTINF:-1 tvg-id="ts292" tvg-name="channel 1" tvg-logo="https://i.ibb.co/7JTXpbNn/Gemini-Generated-Image-wnstkmwnstkmwnst.jp" group-title="news" tvg-language="Malayalam" tvg-resolution="false" tvg-quality="sd", channel 1
+stream url
+
+
 #EXTINF:-1 tvg-id="ts479" tvg-name="Surya HD 4K" tvg-logo="https://i.postimg.cc/m2DpD4Th/20241111-014006.png" group-title="Entertainment",Surya HD 4K
 http://mega4k.one:8080/suraj/123456/122096
 #EXTINF:-1 tvg-id="ts479" tvg-name="Surya HD" tvg-logo="https://i.postimg.cc/m2DpD4Th/20241111-014006.png" group-title="Entertainment",Surya HD
