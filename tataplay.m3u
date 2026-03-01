@@ -30,5 +30,47 @@ https://kcnsdhlsapp.ylivestream.com/kcnsdapphls/index.m3u8
 #EXTINF:-1 tvg-name="Pulari TV HD" tvg-logo="https://pularitv.com/assets/images/Pulari-Logo.png" group-title="Malayalam", Pulari TV HD
 https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8
 
-#EXTINF:-1 tvg-name="Bigg Boss" tvg-logo="" group-title="Malayalam", Bigg Boss
-https://rumble.com/live-hls-dvr/6z9guq/playlist.m3u8?
+#EXTINF:-1 tvg-name="Asianet HD" tvg-logo="https://www.keralatv.in/media/2015/08/Asianet-HD-Logo-1200x675.png" group-title="Malayalam", Asianet HD
+http://217.20.112.199/asianet/index.m3u8
+
+#EXTINF:-1 tvg-name="Surya HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3d/HD.SUR.jpg/revision/latest/scale-to-width-down/1000?cb=20240314132303" group-title="Malayalam", Surya HD
+http://103.229.254.25:7001/play/a0dq/index.m3u8
+
+#EXTINF:-1 tvg-name="Mazhavil Manorama HD" tvg-logo="https://www.keralatv.in/media/2019/03/mazhavil-manorama-hd-latest-logo.png" group-title="Malayalam", Mazhavil Manorama HD
+https://cdn-7.pishow.tv/live/1129/master.m3u8
+
+#EXTINF:-1 tvg-name="Raj News Malayalam" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/56/Raj_News_Malayalam.jpeg/revision/latest/scale-to-width-down/300?cb=20191226060228" group-title="Malayalam",Raj News Malayalam
+https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8
+
+#EXTINF:-1 tvg-name="Raj Music Malayalam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/Raj_Musix_Makayalam_TV_Logo.png" group-title="Malayalam",Raj Music Malayalam
+https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8
+
+#EXTINF:-1 tvg-name="News Malayalam 24x7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/News_Malayalam_24x7_main_logo.webp/256px-News_Malayalam_24x7_main_logo.webp.png" group-title="Malayalam", News Malayalam 24x7
+https://d18a8tqmogafg2.cloudfront.net/newsmalayalam/index.m3u8
+
+#EXTINF:-1 tvg-name="Kairali TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/Kairali.svg/revision/latest/scale-to-width-down/300?cb=20230203190247" group-title="Malayalam", Kairali TV
+https://mumt01.tangotv.in/KAIRALI/index.m3u8
+
+#EXTINF:-1 tvg-name="Kairali WE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/Kairali_WE_TV_Logo.png" group-title="Malayalam", Kairali WE
+https://cdn-3.pishow.tv/live/1530/master.m3u8
+
+#EXTINF:-1 tvg-name="Kairali News" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-855-j5ma1eig-v2/imageContent-855-j5ma1eig-m2.png" group-title="Malayalam", Kairali News
+https://cdn-3.pishow.tv/live/1469/master.m3u8
+
+#EXTINF:-1 tvg-name="Kaumudy TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/Kaumudy_TV.jpeg/revision/latest?cb=20191228094005" group-title="Malayalam", Kaumudy TV
+https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Amrita TV" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/amrita-tv-black.png" group-title="Malayalam", Amrita TV 
+https://ddash74r36xqp.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-name="Kerala Vision" tvg-logo="https://www.cablemedia.in/img/pictures/logokv.png" group-title="Malayalam", Kerala Vision
+https://mumt03.tangotv.in/KERALAVISION/index.m3u8
+
+#EXTINF:-1 tvg-name="Kite Victers" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/045d7b8a0bf3cd0efcc7026b0bdc5344.png" group-title="Malayalam", Kite Victers
+https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="News 18 Kerala" tvg-logo="https://images.news18.com/dlxczavtqcctuei/news18/static/images/news18malayalam-logo-1200x675.png" group-title="Malayalam", News 18 Kerala
+https://nw18live.cdn.jio.com/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8
+
+#EXTINF:-1 tvg-name="Real news kerala" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/bab9f8c12e95ab07112686bda17c17b2.png" group-title="Malayalam", Real news kerala
+https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
