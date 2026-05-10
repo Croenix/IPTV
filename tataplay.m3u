@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
 #EXTM3U
+#EXTINF:-1 tvg-id="1408" tvg-name="Asianet News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/Asianet_News.svg/revision/latest/scale-to-width-down/200?cb=20210611104402" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Reporter TV
+https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
 #EXTINF:-1 tvg-id="1408" tvg-name="Reporter TV" tvg-logo="https://res.cloudinary.com/dutymimcv/image/upload/v1746109640/xeno-gallery/file_qb9iwo.png" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Reporter TV
 https://segment.yuppcdn.net/050522/reporter/playlist.m3u8
 #EXTINF:-1 tvg-id="634" tvg-name="Flowers USA" tvg-logo="https://res.cloudinary.com/dutymimcv/image/upload/v1746116363/xeno-gallery/file_gdsh6y.png" group-title="entertainment" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Flowers USA
