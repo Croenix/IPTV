@@ -1,10 +1,21 @@
-#EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
+#EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
 #EXTM3U
 
-#EXTINF:-1 tvg-id="1408" tvg-name="Asianet HD" tvg-logo="https://i.imgur.com/RSocnNt.jpeg" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet HD
+#EXTINF:-1 tvg-id="443" tvg-name="Asianet HD" tvg-logo="https://i.imgur.com/RSocnNt.jpeg" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet HD
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8
 
-#EXTINF:-1 tvg-id="1408" tvg-name="Asianet News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/Asianet_News.svg/revision/latest/scale-to-width-down/200?cb=20210611104402" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet news
+#EXTINF:-1 tvg-id="459" tvg-name="Asianet Movies HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/38/Asianet_Movies_HD.png/revision/latest/scale-to-width-down/250?cb=20211017153130" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet Movies HD
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="1408" tvg-name="Kairali Arabia" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjBGmVy1Iy98qyJc6-0IZQ5XrJ0cGgL9ZhY5BequLXTcUNj9-JruLihhk&s=10" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Kairali Arabia
+https://mumt03.tangotv.in/Dsly5z3HKAIRALIARABIA/index.m3u8
+
+#EXTINF:-1 tvg-id="443" tvg-name="Raj Musix Malayalam" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_MALAYALAM/images/LOGO_HD/image.png" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Raj Musix Malayalam
+https://cdn.pishow.tv/ott/live/1073/master.m3u8
+
+
+
+#EXTINF:-1 tvg-id="180" tvg-name="Asianet News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/Asianet_News.svg/revision/latest/scale-to-width-down/200?cb=20210611104402" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet news
 https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
 #EXTINF:-1 tvg-id="1408" tvg-name="Reporter TV" tvg-logo="https://res.cloudinary.com/dutymimcv/image/upload/v1746109640/xeno-gallery/file_qb9iwo.png" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Reporter TV
 https://segment.yuppcdn.net/050522/reporter/playlist.m3u8
