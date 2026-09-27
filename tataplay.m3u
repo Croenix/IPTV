@@ -13,6 +13,8 @@ https://mumt03.tangotv.in/Dsly5z3HKAIRALIARABIA/index.m3u8
 #EXTINF:-1 tvg-id="443" tvg-name="Raj Musix Malayalam" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_MALAYALAM/images/LOGO_HD/image.png" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Raj Musix Malayalam
 https://cdn.pishow.tv/ott/live/1073/master.m3u8
 
+#EXTINF:-1 tvg-id="443" tvg-name="Asianet Middle East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJku5FLukyeZJ8x9kWnl6CFnydIwQALL7mRgdECrExA3u-KxAu5n06zT5&s=10" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet Middle East
+https://mumt03.tangotv.in/Dsly5z3HASIANETMIDDLEEAST/index.m3u8
 
 
 #EXTINF:-1 tvg-id="180" tvg-name="Asianet News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/Asianet_News.svg/revision/latest/scale-to-width-down/200?cb=20210611104402" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet news
@@ -69,7 +71,7 @@ https://d18a8tqmogafg2.cloudfront.net/newsmalayalam/index.m3u8
 https://mumt01.tangotv.in/KAIRALI/index.m3u8
 
 #EXTINF:-1 tvg-name="Kairali WE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/Kairali_WE_TV_Logo.png" group-title="Malayalam", Kairali WE
-https://cdn-3.pishow.tv/live/1530/master.m3u8
+https://cdn.pishow.tv/ott/live/1530/master.m3u8
 
 #EXTINF:-1 tvg-name="Kairali News" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-855-j5ma1eig-v2/imageContent-855-j5ma1eig-m2.png" group-title="Malayalam", Kairali News
 https://cdn-3.pishow.tv/live/1469/master.m3u8
