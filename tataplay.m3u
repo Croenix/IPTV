@@ -2,7 +2,8 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="443" tvg-name="Asianet HD" tvg-logo="https://i.imgur.com/RSocnNt.jpeg" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet HD
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8
+
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8
 
 #EXTINF:-1 tvg-id="459" tvg-name="Asianet Movies HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/38/Asianet_Movies_HD.png/revision/latest/scale-to-width-down/250?cb=20211017153130" group-title="news" tvg-language="malayalam" tvg-resolution="false" tvg-quality="hd", Asianet Movies HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
